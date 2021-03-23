@@ -1,6 +1,4 @@
-
 </html>
 
 <script>
-
 </script>
