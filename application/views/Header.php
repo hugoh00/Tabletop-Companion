@@ -13,4 +13,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<!-- Latest compiled JavaScript -->
     <script src="<?php echo base_url('public\javascript\bootstrap.js') ?>"></script>
 	<title>Settlers of Catan</title>
+
+    <nav class="navbar" style="background-color:#be5830;">
+        <a class="navbar-brand" >
+            <img src="<?php echo base_url('public\images\websitelogo.png') ?>" width="10%" height="10%" class="d-inline-block align-top" alt="">
+        </a>
+        <h4>Tabletop Companion<h4>
+    </nav>
 </head>
