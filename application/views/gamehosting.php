@@ -29,8 +29,21 @@
         <!-- overarching container that hides when game isnt started -->
         <div class="container" id="gameActive">
             <!-- digital dice to go here -->
-            made it
             <!-- dynamic table -->
+            <table class="table table-hover">
+				<thead class="thead-dark">
+					<tr class="table-info">
+						<th scope="col">Player</th>
+                        <!-- resources -->
+						<th scope="col">Brick</th>
+                        <th scope="col">Ore</th>
+                        <th scope="col">Lumber</th>
+                        <th scope="col">Wool</th>
+					</tr>
+				</thead>
+				<tbody id="populate">
+                </tbody>
+            </table>
             <!-- button to close game  -->
             <div class="col text-center">
                         <button type="button" onclick="endGame()" class="btn btn-dark">End Game</button>
