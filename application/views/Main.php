@@ -1,19 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">	
-	<link rel='stylesheet' href="<?php echo base_url('public\css\bootstrap.css') ?>"/>
-	<!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-    <script src="<?php echo base_url('public\javascript\bootstrap.js') ?>"></script>
-	<title>Template</title>
-</head>
+<style>
+a, a:hover,a:visited, a:focus {
+    text-decoration:none;
+    color:white;
+}
+</style>
 
 <body style="background-color: #be5830;">
 <br/>
@@ -90,10 +83,3 @@ _END;
     </div>
 </body>
 	
-</html>
-<style>
-a, a:hover,a:visited, a:focus {
-    text-decoration:none;
-    color:white;
-}
-</style>
