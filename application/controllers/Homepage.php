@@ -33,7 +33,13 @@ class Homepage extends CI_Controller {
 		$this->load->view('Header');
 
 		$data['variable'] = 90;
+
 		$this->load->view('Main', $data);
+
+
+		$this->load->view('navbar');
+		$this->load->view('gamehosting');
+
 		$this->load->view('Footer');
 	}
 }
