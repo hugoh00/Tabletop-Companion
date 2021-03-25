@@ -36,9 +36,13 @@
 						<th scope="col">Player</th>
                         <!-- resources -->
 						<th scope="col">Brick</th>
+                        <th scope="col">+/-</th>
                         <th scope="col">Ore</th>
+                        <th scope="col">+/-</th>
                         <th scope="col">Lumber</th>
+                        <th scope="col">+/-</th>
                         <th scope="col">Wool</th>
+                        <th scope="col">+/-</th>
 					</tr>
 				</thead>
 				<tbody id="populate">
