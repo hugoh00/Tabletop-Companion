@@ -37,6 +37,8 @@
                         <!-- resources -->
 						<th scope="col">Brick</th>
                         <th scope="col">+/-</th>
+                        <th scope="col">Grain</th>
+                        <th scope="col">+/-</th>
                         <th scope="col">Ore</th>
                         <th scope="col">+/-</th>
                         <th scope="col">Lumber</th>

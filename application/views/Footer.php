@@ -4,18 +4,68 @@
 
 $(function(){
     $("#gameActive").hide();
+    var gameplay = [
+        [0, 0, 0, 0, 0],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5]
+    ];
 });
 //new column increase decrease 
 // dynamic id multiple ifs to check which to increase/decrease
 
-function increaseDecrease(resourceName, i) 
+function increase(resourceName, i) 
 {
     //plusminusResourcename
     if (i == 1) {
         if (resourceName=='brick') {
-            $('#brick1').val() ="6";
+            gameplay[1][0] += 1;
+            updateTable();
         }
     }
+}
+function decrease(resourceName, i) 
+{
+    //plusminusResourcename
+    if (i == 1) {
+        if (resourceName=='brick') {
+            gameplay[1][0] -= 1;
+            updateTable();
+        }
+    }
+}
+function updateTable() 
+{
+    $("#populate tr").remove();
+    for (var i=1; i <= $('#playerSelect').val(); i++) 
+        {
+            //append rows
+             //dynamic id setting
+            var brick = "brick" + i;
+            var grain = "grain" + i;
+            var ore = "ore" + i;
+            var lumber = "lumber" + i;
+            var wool = "wool" + i;
+            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] +"</td><td id='plusminusBrick'>" + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] +"</td><td id='plusminusGrain'>" + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] +"</td><td id='plusminusOre'>" +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] +"</td><td id='plusminusLumber'>" + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] +"</td><td id='plusminusWool'>" +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
+            $('#populate').append(row);
+    }
+}
+function resetArray() 
+{
+    gameplay = [
+        [0, 0, 0, 0, 0],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5]
+    ];
 }
 function startGame() 
 {   
@@ -24,6 +74,8 @@ function startGame()
    if ($('#playerSelect').val() == "X") {
 
     } else {
+        $("#populate tr").remove();
+        resetArray();
         $('#gameSetup').hide();
         $('#gameActive').show();
 
@@ -32,10 +84,11 @@ function startGame()
             //append rows
              //dynamic id setting
             var brick = "brick" + i;
+            var grain = "grain" + i;
             var ore = "ore" + i;
             var lumber = "lumber" + i;
             var wool = "wool" + i;
-            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">5</td><td id='plusminusBrick'>" + up('\'brick\'', i) + down('\'brick\'', i) + "</td> <td id=" + ore + ">5</td><td id='plusminusOre'>" +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">5</td><td id='plusminusLumber'>" + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">5</td><td id='plusminusWool'>" +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
+            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] +"</td><td id='plusminusBrick'>" + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] +"</td><td id='plusminusGrain'>" + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] +"</td><td id='plusminusOre'>" +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] +"</td><td id='plusminusLumber'>" + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] +"</td><td id='plusminusWool'>" +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
             $('#populate').append(row);
         }
     }
@@ -43,17 +96,18 @@ function startGame()
 }
 
 function up(resourceName, i) {
-    return '<button class="btn btn-success" onclick="increaseDecrease(' + resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M3.22 9.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 01-1.06 0z"></path></svg></button>';
+    return '<button class="btn btn-success" onclick="increase(' + resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M3.22 9.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 01-1.06 0z"></path></svg></button>';
 
 }
 
 function down(resourceName, i) {
-    return '<button class="btn btn-danger" onclick="increaseDecrease(' +  resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path></svg></button>';
+    return '<button class="btn btn-danger" onclick="decrease(' +  resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path></svg></button>';
     
 }
 
 function endGame() 
 {
+    resetArray();
     //ending game hides game active container
     //shows the game start container
     $('#gameSetup').show();
