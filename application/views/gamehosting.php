@@ -29,6 +29,17 @@
         <!-- overarching container that hides when game isnt started -->
         <div class="container" id="gameActive">
             <!-- digital dice to go here -->
+            <div class="col text-center">
+                <div id="digitaldice"> 
+                    <div class="table-responsive-md">
+                            <table class="table" style="background-color:#be5830;">
+                                <tbody id="dice">
+                                </tbody>
+                            </table>
+                    </div>
+                </div>
+                <button type="button" onclick="rollDice()" class="btn btn-dark btn-lg">Roll Dice</button>
+            </div>
             <!-- storing the svgs for later use -->
 
                 <!-- Player SVG -->
@@ -154,7 +165,7 @@
             </div>
             <!-- button to close game  -->
             <div class="col text-center">
-                        <button type="button" onclick="endGame()" class="btn btn-block btn-danger">End Game</button>
+                        <button type="button" onclick="endGame()" class="btn btn-block btn-dark">End Game</button>
             </div>
         </div>
         &nbsp;
