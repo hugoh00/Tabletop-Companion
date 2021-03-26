@@ -3,8 +3,15 @@
 <script type="text/javascript">
 
 $(function(){
+    //hide views for navbar
+
+
+
+    //gamehosting view
     $("#gameActive").hide();
     $("#digitaldice").hide();
+    //add more if planning on adding capability of more players
+    //or future get a dynamic array
     var gameplay = [
         [0, 0, 0, 0, 0],
         //1
@@ -20,6 +27,7 @@ $(function(){
         //6
         [5, 5, 5, 5, 5],
     ];
+    //gamehosting view end
 });
 //new column increase decrease 
 // dynamic id multiple ifs to check which to increase/decrease
