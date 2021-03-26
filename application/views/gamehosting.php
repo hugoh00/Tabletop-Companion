@@ -30,7 +30,7 @@
         <div class="container" id="gameActive">
             <!-- digital dice to go here -->
             <!-- dynamic table -->
-            <table class="table table-hover">
+            <table class="table table-dark">
 				<thead class="thead-dark">
 					<tr class="table-info">
 						<th scope="col">Player</th>

@@ -6,13 +6,18 @@ $(function(){
     $("#gameActive").hide();
     var gameplay = [
         [0, 0, 0, 0, 0],
+        //1
         [5, 5, 5, 5, 5],
+        //2
         [5, 5, 5, 5, 5],
+        //3
         [5, 5, 5, 5, 5],
+        //4
         [5, 5, 5, 5, 5],
+        //5
         [5, 5, 5, 5, 5],
+        //6
         [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5]
     ];
 });
 //new column increase decrease 
@@ -21,22 +26,36 @@ $(function(){
 function increase(resourceName, i) 
 {
     //plusminusResourcename
-    if (i == 1) {
-        if (resourceName=='brick') {
-            gameplay[1][0] += 1;
-            updateTable();
-        }
-    }
+    // var brick = "brick" + i;
+    //         var grain = "grain" + i;
+    //         var ore = "ore" + i;
+    //         var lumber = "lumber" + i;
+    //         var wool = "wool" + i;
+    gameplay[i][checkResource(resourceName)] += 1;
+    updateTable();
 }
 function decrease(resourceName, i) 
 {
     //plusminusResourcename
-    if (i == 1) {
-        if (resourceName=='brick') {
-            gameplay[1][0] -= 1;
-            updateTable();
-        }
-    }
+    gameplay[i][checkResource(resourceName)] -= 1;
+    if (gameplay[i][checkResource(resourceName)] < 0) {
+        gameplay[i][checkResource(resourceName)] = 0;
+    }  
+    updateTable();
+}
+function checkResource(resourceName) 
+{
+    if (resourceName=='brick') {
+        return 0;
+    } else if (resourceName=='grain') {
+        return 1;
+    } else if (resourceName=='ore') {
+        return 2;
+    } else if (resourceName=='lumber') {
+        return 3;
+    } else if (resourceName=='wool') {
+        return 4;
+    }   
 }
 function updateTable() 
 {
