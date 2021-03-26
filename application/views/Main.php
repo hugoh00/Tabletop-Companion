@@ -13,7 +13,7 @@ a, a:hover,a:visited, a:focus {
 <!-- Template created 23/03/2021 -->
 <!-- Change the ID to the view name and enter content within the div according to your design -->
    
-    <div class="container bg-gradient-danger" id="ENTER VIEW NAME" style="background-color: #f4d032;">
+    <div class="container bg-gradient-danger" id="mainContent" style="background-color: #f4d032;">
         <!-- enter content here -->
         <!-- will be pushed into the main project once done-->
         <h3 class="display-4">Settlers of Catan</h3>
