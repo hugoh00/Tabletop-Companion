@@ -62,14 +62,16 @@ function updateTable()
     $("#populate tr").remove();
     for (var i=1; i <= $('#playerSelect').val(); i++) 
         {
-            //append rows
+             //append rows
+            // svg for plus minus
+            var plusminus = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-contract" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.646 13.854a.5.5 0 0 0 .708 0L8 10.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zm0-11.708a.5.5 0 0 1 .708 0L8 5.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708z"/></svg>';
              //dynamic id setting
             var brick = "brick" + i;
             var grain = "grain" + i;
             var ore = "ore" + i;
             var lumber = "lumber" + i;
             var wool = "wool" + i;
-            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] +"</td><td id='plusminusBrick'>" + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] +"</td><td id='plusminusGrain'>" + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] +"</td><td id='plusminusOre'>" +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] +"</td><td id='plusminusLumber'>" + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] +"</td><td id='plusminusWool'>" +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
+            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] + " " +  plusminus + " " + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] + " " +  plusminus + " " + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] + " " +  plusminus + " " +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] + " " +  plusminus + " " + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] + " " +  plusminus + " " +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
             $('#populate').append(row);
     }
 }
@@ -101,13 +103,15 @@ function startGame()
         for (var i=1; i <= $('#playerSelect').val(); i++) 
         {
             //append rows
+            // svg for plus minus
+            var plusminus = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-contract" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M3.646 13.854a.5.5 0 0 0 .708 0L8 10.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zm0-11.708a.5.5 0 0 1 .708 0L8 5.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708z"/></svg>';
              //dynamic id setting
             var brick = "brick" + i;
             var grain = "grain" + i;
             var ore = "ore" + i;
             var lumber = "lumber" + i;
             var wool = "wool" + i;
-            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] +"</td><td id='plusminusBrick'>" + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] +"</td><td id='plusminusGrain'>" + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] +"</td><td id='plusminusOre'>" +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] +"</td><td id='plusminusLumber'>" + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] +"</td><td id='plusminusWool'>" +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
+            var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] + " " +  plusminus + " " + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] + " " +  plusminus + " " + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] + " " +  plusminus + " " +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] + " " +  plusminus + " " + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] + " " +  plusminus + " " +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
             $('#populate').append(row);
         }
     }
