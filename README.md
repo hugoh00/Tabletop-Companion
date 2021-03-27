@@ -12,7 +12,9 @@ The aim of this tabletop companion is to provide a helpful guide to new and old 
 # Views under the navigation bar
 <img width="398" alt="maincontentview" src="https://user-images.githubusercontent.com/77689366/112723334-c7862d80-8f05-11eb-849d-0d86b3a27d73.PNG">
 <img width="400" alt="gamestart" src="https://user-images.githubusercontent.com/77689366/112723336-c9e88780-8f05-11eb-9c86-58f8fb534675.PNG">
+
 # Game Hosting
+
 A important feature is to host the game without resource cards and dice, achieved this with a dynamic table for resources and building the recipes with the players resources.
 
 
