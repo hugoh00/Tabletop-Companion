@@ -2,7 +2,7 @@
         <!-- enter content here -->
         <!-- will be pushed into the main project once done-->
         <br>
-        <h3 style="text-align:center;">Game Hosting</h3>
+        <h3 class="display-4" style="text-align:center;">Game Hosting</h3>
         <br>
         <br>
 
@@ -32,9 +32,8 @@
             <div class="col text-center">
                 <div id="digitaldice"> 
                     <div class="table-responsive-md">
-                            <table class="table" style="background-color:#be5830;">
-                                <tbody id="dice">
-                                </tbody>
+                            <table class="table table-borderless" style="background-color:#be5830;">
+                                <tbody id="dice"></tbody>
                             </table>
                     </div>
                 </div>
