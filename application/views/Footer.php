@@ -202,17 +202,17 @@ function rollDice()
 function getDiceFace(x) 
 {
     if (x == 1) {
-        var row = '<img src="public/images/one.png" width="25%" height="80" class="d-inline-block align-top" alt="one"/>'
+        var row = '<img src="public/images/one.png" width="80" height="80" class="d-inline-block align-top" alt="one"/>'
     } else if (x == 2) {
-        var row = '<img src="public/images/two.png" width="25%" height="80" class="d-inline-block align-top" alt="two"/>'
+        var row = '<img src="public/images/two.png" width="80" height="80" class="d-inline-block align-top" alt="two"/>'
     } else if (x == 3) {
-        var row = '<img src="public/images/three.png" width="25%" height="80" class="d-inline-block align-top" alt="three"/>'
+        var row = '<img src="public/images/three.png" width="80" height="80" class="d-inline-block align-top" alt="three"/>'
     } else if (x == 4) {
-        var row = '<img src="public/images/four.png" width="25%" height="80" class="d-inline-block align-top" alt="four"/>'
+        var row = '<img src="public/images/four.png" width="80" height="80" class="d-inline-block align-top" alt="four"/>'
     } else if (x == 5) {
-        var row = '<img src="public/images/five.png" width="25%" height="80" class="d-inline-block align-top" alt="five"/>'
+        var row = '<img src="public/images/five.png" width="80" height="80" class="d-inline-block align-top" alt="five"/>'
     } else if (x == 6) {
-        var row = '<img src="public/images/six.png" width="25%" height="80" class="d-inline-block align-top" alt="six"/>'
+        var row = '<img src="public/images/six.png" width="80" height="80" class="d-inline-block align-top" alt="six"/>'
     } 
     return row;
 }
