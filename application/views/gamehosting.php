@@ -32,7 +32,7 @@
             <div class="col text-center">
                 <div id="digitaldice"> 
                     <div class="table-responsive-md">
-                            <table class="table table-borderless" style="background-color:#be5830;">
+                            <table class="table table-borderless" style="background-color:#f4d032;">
                                 <tbody id="dice"></tbody>
                             </table>
                     </div>

@@ -194,10 +194,27 @@ function rollDice()
     var secondRoll = Math.floor(Math.random() * Math.floor(6));
     secondRoll += 1;
 
-    var row = "<tr><td>" + firstRoll + "</td><td>" + secondRoll + "</td></tr>"
+    var row = "<tr><td>" + getDiceFace(firstRoll) + "</td><td>" + getDiceFace(secondRoll) + "</td></tr>"
     $("#digitaldice").show();
     $('#dice').append(row);
 
+}
+function getDiceFace(x) 
+{
+    if (x == 1) {
+        var row = '<img src="public/images/one.png" width="25%" height="80" class="d-inline-block align-top" alt="one"/>'
+    } else if (x == 2) {
+        var row = '<img src="public/images/two.png" width="25%" height="80" class="d-inline-block align-top" alt="two"/>'
+    } else if (x == 3) {
+        var row = '<img src="public/images/three.png" width="25%" height="80" class="d-inline-block align-top" alt="three"/>'
+    } else if (x == 4) {
+        var row = '<img src="public/images/four.png" width="25%" height="80" class="d-inline-block align-top" alt="four"/>'
+    } else if (x == 5) {
+        var row = '<img src="public/images/five.png" width="25%" height="80" class="d-inline-block align-top" alt="five"/>'
+    } else if (x == 6) {
+        var row = '<img src="public/images/six.png" width="25%" height="80" class="d-inline-block align-top" alt="six"/>'
+    } 
+    return row;
 }
 function endGame() 
 {
