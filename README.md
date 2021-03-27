@@ -8,7 +8,5 @@ The aim of this tabletop companion is to provide a helpful guide to new and old 
 The basic design of the webpage
 <img width="429" alt="design" src="https://user-images.githubusercontent.com/77689366/112722947-1f239980-8f04-11eb-9a77-4783b93231c3.PNG">
 
-A important feature is to host the game without resource cards and dice
-Achieved this with a dynamic table for resources and building the recipes with
-the players resources.
+A important feature is to host the game without resource cards and dice, achieved this with a dynamic table for resources and building the recipes with the players resources.
 <img width="416" alt="gamehostingfinished" src="https://user-images.githubusercontent.com/77689366/112722980-45e1d000-8f04-11eb-9ef0-bae29f99521e.PNG">
