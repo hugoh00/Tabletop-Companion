@@ -20,4 +20,5 @@ A important feature is to host the game without resource cards and dice, achieve
 
 <img width="416" alt="gamehostingfinished" src="https://user-images.githubusercontent.com/77689366/112722980-45e1d000-8f04-11eb-9ef0-bae29f99521e.PNG">
 
-Hugo Hay.
+let signatureView = HYPSignatureView(frame: self.view.frame)
+self.view.addSubview(Hugo Hay)
