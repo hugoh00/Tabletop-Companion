@@ -87,6 +87,7 @@ function updateTable()
 function resetArray() 
 {
     $("#construction tr").remove();
+    $("#victory tr").remove();
     $("#dice tr").remove();
     gameplay = [
         [0, 0, 0, 0, 0],
@@ -122,12 +123,16 @@ function startGame()
             var ore = "ore" + i;
             var lumber = "lumber" + i;
             var wool = "wool" + i;
+
             var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] + " " +  plusminus + " " + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] + " " +  plusminus + " " + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] + " " +  plusminus + " " +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] + " " +  plusminus + " " + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] + " " +  plusminus + " " +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
             $('#populate').append(row);
 
 
             var row = '<tr><td>' + i + '</td><td><button class="btn btn-outline-light btn-block" onclick="build(0,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(1,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(2,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(3,' + i + ')">Build</button></td></tr>';
             $('#construction').append(row);
+
+            var row = '<tr><td>' + i + '</td><td>plusminus</td></tr>';
+            $('#victory').append(row);
         }
     }
     
