@@ -170,7 +170,7 @@ function build(recipe, i)
     } else if (recipe == 3) {
         if (gameplay[i][1] >= 1 && gameplay[i][4] >= 1 && gameplay[i][2] >= 1) 
         {
-            gameplay[i][0] -= 1;
+            gameplay[i][1] -= 1;
             gameplay[i][4] -= 1;
             gameplay[i][2] -= 1;
         } 
