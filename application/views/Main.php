@@ -79,6 +79,4 @@ _END;
                 </div>
             </div>
         </div>
-    &nbsp;
-    </div>
 	

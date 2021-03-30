@@ -128,7 +128,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Settlement</th>
-                                    <td>1 <?php echo $lumber; ?> 1 <?php echo $brick;?>1 <?php echo $grain; ?> 1 <?php echo $wool;?></td>
+                                    <td>1 <?php echo $lumber; ?> 1 <?php echo $brick;?> 1 <?php echo $grain; ?> 1 <?php echo $wool;?></td>
                                 </tr>
                                 <tr>
                                     <th scope="row">City</th>
@@ -136,7 +136,7 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">Development Card</th>
-                                    <td>1 <?php echo $grain; ?> 1 <?php echo $wool;?>1 <?php echo $ore;?></td>
+                                    <td>1 <?php echo $grain; ?> 1 <?php echo $wool;?> 1 <?php echo $ore;?></td>
                                 </tr>
                             </tbody>
                         </table>
