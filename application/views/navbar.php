@@ -43,10 +43,10 @@ a, a:hover,a:visited, a:focus {
                     </div>
                 </li>
                 <li class="nav-item px-4" id="strategySelect">
-                    <a onclick="strategyshow()" class="nav-link">Strategy</a>
+                    <a onclick="strategyshow()" class="nav-link"  role="button">Strategy</a>
                 </li>
                 <li class="nav-item px-4" id="gamehostingSelect">
-                    <a onclick="gamehostingshow()" class="nav-link">Game Tracking</a>
+                    <a onclick="gamehostingshow()" class="nav-link"  role="button">Game Tracking</a>
                 </li>
             </ul>
         </div>
