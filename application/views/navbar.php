@@ -1,6 +1,57 @@
-</br>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-  </nav>
+<br>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+    <script src="<?php echo base_url('public\javascript\bootstrap.js') ?>"></script>
+</head>
 
-</div>
+<div class = "container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarcollapse">
+            <ul class="navbar-nav justify-content-between w-100">
+                <li class="nav-item px-4 dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="rulesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rules</a>
+                    <div class="dropdown-menu" aria-labelledby="rulesDropdown">
+                    <div class="d-md-flex align-items-start justify-content-start">
+                        <div>   
+                            <div class="dropdown-header">Base Game</div>
+                                <a class="dropdown-item" href="#">3-4 Players</a>
+                                <a class="dropdown-item" href="#">5-6 Players</a>
+                        </div>
+                        <div>   
+                            <div class="dropdown-header">Seafarers</div>
+                                <a class="dropdown-item" href="#">3-4 Players</a>
+                                <a class="dropdown-item" href="#">5-6 Players</a>
+                        </div>
+                        <div>   
+                            <div class="dropdown-header">Cities & Knights</div>
+                                <a class="dropdown-item" href="#">3-4 Players</a>
+                                <a class="dropdown-item" href="#">5-6 Players</a>
+                        </div>
+                        <div>   
+                            <div class="dropdown-header">Traders & Barbarians</div>
+                                <a class="dropdown-item" href="#">3-4 Players</a>
+                                <a class="dropdown-item" href="#">5-6 Players</a>
+                        </div>
+                        <div>   
+                            <div class="dropdown-header">Explorers & Pirates</div>
+                                <a class="dropdown-item" href="#">3-4 Players</a>
+                                <a class="dropdown-item" href="#">5-6 Players</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item px-4">
+                    <a href="#" class="nav-link">Strategy</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a href="#" class="nav-link">Game Tracking</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>      
