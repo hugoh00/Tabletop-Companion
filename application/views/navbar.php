@@ -42,13 +42,14 @@ a, a:hover,a:visited, a:focus {
                         </div>
                     </div>
                 </li>
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Strategy</a>
+                <li class="nav-item px-4" id="strategySelect">
+                    <a onclick="strategyshow()" class="nav-link">Strategy</a>
                 </li>
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Game Tracking</a>
+                <li class="nav-item px-4" id="gamehostingSelect">
+                    <a onclick="gamehostingshow()" class="nav-link">Game Tracking</a>
                 </li>
             </ul>
         </div>
     </nav>
+</br>
 </div>

@@ -4,7 +4,8 @@
 
 $(function(){
     //hide views for navbar
-
+    $("#strategy").hide();
+    $("#gamehosting").hide();
 
 
     //gamehosting view
@@ -29,6 +30,14 @@ $(function(){
     ];
     //gamehosting view end
 });
+function gamehostingshow() {
+    $("#strategy").hide();
+    $("#gamehosting").show();
+}
+function strategyshow() {
+    $("#strategy").show();
+    $("#gamehosting").hide();
+}
 //new column increase decrease 
 // dynamic id multiple ifs to check which to increase/decrease
 
