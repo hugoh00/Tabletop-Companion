@@ -51,4 +51,9 @@ a, a:hover,a:visited, a:focus {
             </ul>
         </div>
     </nav>
+<<<<<<< HEAD
 </div>
+=======
+</div>      
+<br>
+>>>>>>> e8afadcb6424323bb5b04249a5a8ded9db8dfda2
