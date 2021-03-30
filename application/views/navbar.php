@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-</br>
-=======
 <br>
 
 
->>>>>>> 2cbe6102f244177abfda12d87fcdb645f6775fd8
 <div class = "container">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarcollapse">
@@ -52,5 +48,5 @@
             </ul>
         </div>
     </nav>
-</div> 
-</br>
+</div>      
+<br>
