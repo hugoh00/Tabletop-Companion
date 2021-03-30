@@ -80,5 +80,4 @@ _END;
                 </div>
             </div>
         </div>
-        </div>
 	
