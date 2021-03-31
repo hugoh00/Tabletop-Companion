@@ -14,19 +14,19 @@ $(function(){
     //add more if planning on adding capability of more players
     //or future get a dynamic array
     var gameplay = [
-        [0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0],
         //1
-        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5, 0],
         //2
-        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5, 0],
         //3
-        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5, 0],
         //4
-        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5, 0],
         //5
-        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5, 0],
         //6
-        [5, 5, 5, 5, 5],
+        [5, 5, 5, 5, 5, 0],
     ];
     //gamehosting view end
 });
@@ -40,8 +40,20 @@ function strategyshow() {
 }
 //new column increase decrease 
 // dynamic id multiple ifs to check which to increase/decrease
-
-function increase(resourceName, i) 
+function increaseVictory(i)
+{
+    gameplay[i][5] += 1;
+    updateTable();
+}
+function decreaseVictory(i)
+{
+    gameplay[i][5] -= 1;
+    if (gameplay[i][5] < 0) {
+        gameplay[i][5] = 0;
+    }  
+    updateTable();
+}
+function increaseResource(resourceName, i) 
 {
     //plusminusResourcename
     // var brick = "brick" + i;
@@ -52,7 +64,7 @@ function increase(resourceName, i)
     gameplay[i][checkResource(resourceName)] += 1;
     updateTable();
 }
-function decrease(resourceName, i) 
+function decreaseResource(resourceName, i) 
 {
     //plusminusResourcename
     gameplay[i][checkResource(resourceName)] -= 1;
@@ -78,6 +90,7 @@ function checkResource(resourceName)
 function updateTable() 
 {
     $("#populate tr").remove();
+    $("#victory tr").remove();
     for (var i=1; i <= $('#playerSelect').val(); i++) 
         {
              //append rows
@@ -91,6 +104,8 @@ function updateTable()
             var wool = "wool" + i;
             var row = "<tr><td>"+ i + "</td> <td id=" + brick + ">" + gameplay[i][0] + " " +  plusminus + " " + up('\'brick\'', i) + down('\'brick\'', i) + "</td><td id=" + grain + ">" + gameplay[i][1] + " " +  plusminus + " " + up('\'grain\'', i) + down('\'grain\'', i) + "</td> <td id=" + ore + ">" + gameplay[i][2] + " " +  plusminus + " " +  up('\'ore\'', i) + down('\'ore\'', i) + "</td><td id=" + lumber + ">" + gameplay[i][3] + " " +  plusminus + " " + up('\'lumber\'', i) + down('\'lumber\'', i) + "</td><td id=" + wool + ">" + gameplay[i][4] + " " +  plusminus + " " +  up('\'wool\'', i) + down('\'wool\'', i) + "</td></tr>";
             $('#populate').append(row);
+            var row = '<tr><td>' + i + '</td><td>' + gameplay[i][5]  + victoryUp(i) + victoryDown(i) + '</td></tr>';
+            $('#victory').append(row);
     }
 }
 function resetArray() 
@@ -99,14 +114,14 @@ function resetArray()
     $("#victory tr").remove();
     $("#dice tr").remove();
     gameplay = [
-        [0, 0, 0, 0, 0],
-        [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5],
-        [5, 5, 5, 5, 5]
+        [0, 0, 0, 0, 0, 0],
+        [5, 5, 5, 5, 5, 0],
+        [5, 5, 5, 5, 5, 0],
+        [5, 5, 5, 5, 5, 0],
+        [5, 5, 5, 5, 5, 0],
+        [5, 5, 5, 5, 5, 0],
+        [5, 5, 5, 5, 5, 0],
+        [5, 5, 5, 5, 5, 0]
     ];
 }
 function startGame() 
@@ -140,7 +155,7 @@ function startGame()
             var row = '<tr><td>' + i + '</td><td><button class="btn btn-outline-light btn-block" onclick="build(0,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(1,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(2,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(3,' + i + ')">Build</button></td></tr>';
             $('#construction').append(row);
 
-            var row = '<tr><td>' + i + '</td><td>plusminus</td></tr>';
+            var row = '<tr><td>' + i + '</td><td>' + gameplay[i][5]  + victoryUp(i) + victoryDown(i) + '</td></tr>';
             $('#victory').append(row);
         }
     }
@@ -188,13 +203,23 @@ function build(recipe, i)
     
     updateTable();
 }
+function victoryUp(i) 
+{
+    return '<button class="btn btn-success btn-sm" onclick="increaseVictory(' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M3.22 9.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 01-1.06 0z"></path></svg></button>';
+
+}
+function victoryDown(i) 
+{
+    return '<button class="btn btn-danger btn-sm" onclick="decreaseVictory(' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path></svg></button>';
+    
+}
 function up(resourceName, i) {
-    return '<button class="btn btn-success btn-sm" onclick="increase(' + resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M3.22 9.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 01-1.06 0z"></path></svg></button>';
+    return '<button class="btn btn-success btn-sm" onclick="increaseResource(' + resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M3.22 9.78a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0l4.25 4.25a.75.75 0 01-1.06 1.06L8 6.06 4.28 9.78a.75.75 0 01-1.06 0z"></path></svg></button>';
 
 }
 
 function down(resourceName, i) {
-    return '<button class="btn btn-danger btn-sm" onclick="decrease(' +  resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path></svg></button>';
+    return '<button class="btn btn-danger btn-sm" onclick="decreaseResource(' +  resourceName + ',' + i + ')"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20"><path fill-rule="evenodd" d="M12.78 6.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.22 7.28a.75.75 0 011.06-1.06L8 9.94l3.72-3.72a.75.75 0 011.06 0z"></path></svg></button>';
     
 }
 function rollDice() 
