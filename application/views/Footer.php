@@ -31,12 +31,21 @@ $(function(){
     //gamehosting view end
 });
 function gamehostingshow() {
-    $("#strategy").hide();
-    $("#gamehosting").show();
+    if($("#gamehosting").is(":visible")){
+        $("#gamehosting").hide();
+    } else{
+        $("#strategy").hide();
+        $("#gamehosting").show();
+    }
+    
 }
 function strategyshow() {
-    $("#strategy").show();
-    $("#gamehosting").hide();
+    if($("#strategy").is(":visible")){
+        $("#strategy").hide();
+    } else{
+        $("#strategy").show();
+        $("#gamehosting").hide();
+    }
 }
 //new column increase decrease 
 // dynamic id multiple ifs to check which to increase/decrease
@@ -155,7 +164,7 @@ function startGame()
             var row = '<tr><td>' + i + '</td><td><button class="btn btn-outline-light btn-block" onclick="build(0,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(1,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(2,' + i + ')">Build</button></td><td><button class="btn btn-outline-light btn-block" onclick="build(3,' + i + ')">Build</button></td></tr>';
             $('#construction').append(row);
 
-            var row = '<tr><td>' + i + '</td><td>' + gameplay[i][5]  + victoryUp(i) + victoryDown(i) + '</td></tr>';
+            var row = '<tr><td>' + i + '</td><td>' + gameplay[i][5]  + "&nbsp;" + victoryUp(i) + victoryDown(i) + '</td></tr>';
             $('#victory').append(row);
         }
     }
