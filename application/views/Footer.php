@@ -6,6 +6,7 @@ $(function(){
     //hide views for navbar
     $("#strategy").hide();
     $("#gamehosting").hide();
+    $("#rules").hide();
 
 
     //gamehosting view
@@ -30,13 +31,13 @@ $(function(){
     ];
     //gamehosting view end
 });
-// function for rules
-// pass in a parameter then check against some ifs
+
 function gamehostingshow() {
     if($("#gamehosting").is(":visible")){
         $("#gamehosting").hide();
     } else{
         $("#strategy").hide();
+        $("#rules").hide();
         $("#gamehosting").show();
     }
     
@@ -46,9 +47,38 @@ function strategyshow() {
         $("#strategy").hide();
     } else{
         $("#strategy").show();
+        $("#rules").hide();
         $("#gamehosting").hide();
     }
 }
+
+// function for rules
+// pass in a parameter then check against some ifs
+function ruleshow(n) {
+
+    if (n=='bs34') {
+        
+    } else if (n=='bs56') {
+
+    } else if (n=='sf34') {
+        
+    } else if (n=='sf56') {
+        
+    } else if (n=='ck34') {
+        
+    } else if (n=='ck56') {
+        
+    } else if (n=='tb34') {
+        
+    } else if (n=='tb56') {
+        
+    } else if (n=='ep34') {
+        
+    } else if (n=='ep56') {
+        
+    } 
+}
+
 //new column increase decrease 
 // dynamic id multiple ifs to check which to increase/decrease
 function increaseVictory(i)
