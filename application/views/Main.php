@@ -37,6 +37,11 @@ a, a:hover,a:visited, a:focus {
                     settlements in the right places and skillfully trade your resources,
                     then the odds will be in your favor. But your opponents are smart too.
                 </p>
+
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">170+ hours on a game you love</p>
+                    <footer class="blockquote-footer">Atomic Priest <cite title="Source Title">Steam Reviews</cite></footer>
+                </blockquote>
                 </div>
                 <div class="col">
                 <img src="<?php echo base_url('public\images\Catan-2015-boxart.png') ?>" class="rounded mx-auto d-block" alt="">

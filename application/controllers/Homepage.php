@@ -32,7 +32,7 @@ class Homepage extends CI_Controller {
 
 		$this->load->view('Header');
 
-		$data['variable'] = 90;
+		$data['variable'] = 53;
 
 		$this->load->view('Main', $data);
 
