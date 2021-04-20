@@ -30,6 +30,8 @@ $(function(){
     ];
     //gamehosting view end
 });
+// function for rules
+// pass in a parameter then check against some ifs
 function gamehostingshow() {
     if($("#gamehosting").is(":visible")){
         $("#gamehosting").hide();

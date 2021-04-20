@@ -17,6 +17,7 @@ a, a:hover,a:visited, a:focus {
                     <div class="d-md-flex align-items-start justify-content-start">
                         <div>   
                             <div class="dropdown-header">Base Game</div>
+                            <!-- onclick="ruleShow('bs34')" -->
                                 <a class="dropdown-item" href="#">3-4 Players</a>
                                 <a class="dropdown-item" href="#">5-6 Players</a>
                         </div>
