@@ -2,6 +2,7 @@
     
     <!-- Base Game -->
     <div id="basegame34">
+        <h3>Base game rules</h3>
     </div>
     <div id="basegame56">
     </div>

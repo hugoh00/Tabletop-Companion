@@ -41,6 +41,7 @@ class Homepage extends CI_Controller {
 		
 		$this->load->view('gamehosting');
 		$this->load->view('strategy');
+		$this->load->view('rules');
 		
 
 		$this->load->view('Footer');

@@ -48,9 +48,9 @@ a, a:hover,a:visited, a:focus {
                 medium score yellow block 
                 good score green block -->
                 <?php
-                    /*=============================================
-                    *         Review Scores NEEDS CHANGINGS       *
-                    =============================================*/
+                    /*==============================
+                    *         Review Scores        *
+                    ===============================*/
                     if ($variable >= 80) {
                         // good score
                         echo <<<_END

@@ -57,7 +57,8 @@ function strategyshow() {
 function ruleshow(n) {
 
     if (n=='bs34') {
-        
+        $("#rules").show();
+        $("#basegame34").show();
     } else if (n=='bs56') {
 
     } else if (n=='sf34') {
