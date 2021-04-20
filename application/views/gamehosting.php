@@ -22,6 +22,7 @@
                 <!-- button to start game -->
                 <div class="col text-center">
                     <button type="button" onclick="startGame()" class="btn btn-dark">Start Game</button>
+                    <a href="https://catanmap.com/" target="_blank"><button type="button" class="btn btn-dark">Generate Map</button></a>
                 </div>
 			</div>
         
