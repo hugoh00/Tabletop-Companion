@@ -1,25 +1,46 @@
 ﻿# Tabletop-Companion
-Settlers of Catan is a strategy game where you have discovered new an uncharted island named Catan, but you aren’t the only ones to land here, race other players to settle the island. You build roads and new settlements that eventually become cities.  
+Access the page through a browser of your choice. 
 
-The game is a scramble for resources across the map which will require trading between players to access the scarce resources of each players civilisation. Each hex tile produces an attached resource except for the barren dessert. Hills produce brick, forests produce lumber, mountains produce ore, fields produce grain, and pastures produce wool. 
+# Main page 
 
-The aim of this tabletop companion is to provide a helpful guide to new and old players. Allow for game hosting to keep track of resources without needing all the cards from the game which may be missing. 
+You can read through a brief description of Settlers of Catan with a user review. Purchase at Amazon (BLUE BUTTON) takes you to the Amazon store page of Settlers of Catan in a new tab. 
 
-# The basic design of the webpage
-<img width="397" alt="simpledesign" src="https://user-images.githubusercontent.com/77689366/112723319-b806e480-8f05-11eb-8ef3-4792d821d3d5.PNG">
-<img width="429" alt="design" src="https://user-images.githubusercontent.com/77689366/112722947-1f239980-8f04-11eb-9a77-4783b93231c3.PNG">
+# Navigation Bar 
 
-# Views under the navigation bar
-<img width="398" alt="maincontentview" src="https://user-images.githubusercontent.com/77689366/112723334-c7862d80-8f05-11eb-849d-0d86b3a27d73.PNG">
-<img width="400" alt="gamestart" src="https://user-images.githubusercontent.com/77689366/112723336-c9e88780-8f05-11eb-9c86-58f8fb534675.PNG">
+Selecting an item from the navigation bar will load the information below for you to see. Click again and the information will be hidden. 
 
-# Game Hosting
+# Rules 
 
-A important feature is to host the game without resource cards and dice, achieved this with a dynamic table for resources and building the recipes with the players resources.
+Rules will give you a handy dropdown to look through all the expansions to find the rule book you need to complete your game of Catan. 
 
+# Strategy 
 
-<img width="416" alt="gamehostingfinished" src="https://user-images.githubusercontent.com/77689366/112722980-45e1d000-8f04-11eb-9ef0-bae29f99521e.PNG">
+Strategy will give you the upper hand on opponents with unbeatable tactics and great tips to enjoy Catan better than ever. 
 
+# Game Hosting 
 
+Starting a game 
 
--- Hugo Hay --
+Select the player size from the drop-down list provided and you’re ready to press the Start Game button to setup your game of Catan. 
+
+Before this, you can generate a map via the Generate Map button taking you to a website, where you can produce a random Catan Map that is printable. 
+
+# Playing the game 
+
+Roll dice button does what it says without the hassle of losing the dice and displays the result on the screen for you. 
+
+The resource table has each player's resource count. 
+
+A green arrow and red arrow button by each resource, press the green button to increase the resource by one and press the red button to decrease the resource by one. 
+
+The Recipe Card displays all the resources required to build the items available to you. 
+
+The Construction table allows players to click BUILD on one of the six building in Catan. Resources will automatically be taken away from the player when BUILD is pressed.  
+
+Make sure you have enough otherwise it won’t let you build it. 
+
+Victory points table, whenever a player earns a victory, they can increase their victory points on this table. Be the quickest to 12 to take the crown. 
+
+# Ending the game 
+
+At the bottom of the Game Hosting page is an END GAME button when pressed the in progress or finished game will be cleared and you will be returned to the Starting a game phase. 
