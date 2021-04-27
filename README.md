@@ -9,23 +9,23 @@ You can read through a brief description of Settlers of Catan with a user review
 
 Selecting an item from the navigation bar will load the information below for you to see. Click again and the information will be hidden. 
 
-# Rules 
+## Rules 
 
 Rules will give you a handy dropdown to look through all the expansions to find the rule book you need to complete your game of Catan. 
 
-# Strategy 
+## Strategy 
 
 Strategy will give you the upper hand on opponents with unbeatable tactics and great tips to enjoy Catan better than ever. 
 
-# Game Hosting 
+## Game Hosting 
 
-Starting a game 
+### Starting a game 
 
 Select the player size from the drop-down list provided and you’re ready to press the Start Game button to setup your game of Catan. 
 
 Before this, you can generate a map via the Generate Map button taking you to a website, where you can produce a random Catan Map that is printable. 
 
-# Playing the game 
+### Playing the game 
 
 Roll dice button does what it says without the hassle of losing the dice and displays the result on the screen for you. 
 
@@ -41,6 +41,6 @@ Make sure you have enough otherwise it won’t let you build it.
 
 Victory points table, whenever a player earns a victory, they can increase their victory points on this table. Be the quickest to 12 to take the crown. 
 
-# Ending the game 
+### Ending the game 
 
 At the bottom of the Game Hosting page is an END GAME button when pressed the in progress or finished game will be cleared and you will be returned to the Starting a game phase. 
