@@ -55,125 +55,171 @@ function strategyshow() {
 // function for rules
 // pass in a parameter then check against some ifs
 function ruleshow(n) {
-    if($("#rules").is(":visible")){
-        $("#rules").hide();
-    } else {
         $("#strategy").hide();
         $("#rules").show();
         $("#gamehosting").hide();
 
         if (n=='bs34') {
-            $("#basegame34").show();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#basegame34").is(":visible")){ 
+                $("#rules").hide();
+                $("#basegame34").hide();
+            } else {
+                $("#basegame34").show();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='bs56') {
-            $("#basegame34").hide();
-            $("#basegame56").show();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#basegame56").is(":visible")){ 
+                $("#rules").hide();
+                $("#basegame56").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").show();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='sf34') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").show();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#seafarers34").is(":visible")){ 
+                $("#rules").hide();
+                $("#seafarers34").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").show();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='sf56') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").show();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#seafarers56").is(":visible")){ 
+                $("#rules").hide();
+                $("#seafarers56").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").show();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='ck34') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").show();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#citiesknights34").is(":visible")){ 
+                $("#rules").hide();
+                $("#citiesknights34").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").show();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='ck56') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").show();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#citiesknights56").is(":visible")){ 
+                $("#rules").hide();
+                $("#citiesknights56").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").show();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='tb34') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").show();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#traderbarbarians34").is(":visible")){ 
+                $("#rules").hide();
+                $("#traderbarbarians34").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").show();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='tb56') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").show();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#traderbarbarians56").is(":visible")){ 
+                $("#rules").hide();
+                $("#traderbarbarians56").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").show();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='ep34') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").show();
-            $("#explorerspirates56").hide();
+            if($("#rules").is(":visible") && $("#explorerspirates34").is(":visible")){ 
+                $("#rules").hide();
+                $("#explorerspirates34").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").show();
+                $("#explorerspirates56").hide();
+            }
         } else if (n=='ep56') {
-            $("#basegame34").hide();
-            $("#basegame56").hide();
-            $("#seafarers34").hide();
-            $("#seafarers56").hide();
-            $("#citiesknights34").hide();
-            $("#citiesknights56").hide();
-            $("#traderbarbarians34").hide();
-            $("#traderbarbarians56").hide();
-            $("#explorerspirates34").hide();
-            $("#explorerspirates56").show();
+            if($("#rules").is(":visible") && $("#explorerspirates56").is(":visible")){ 
+                $("#rules").hide();
+                $("#explorerspirates56").hide();
+            } else {
+                $("#basegame34").hide();
+                $("#basegame56").hide();
+                $("#seafarers34").hide();
+                $("#seafarers56").hide();
+                $("#citiesknights34").hide();
+                $("#citiesknights56").hide();
+                $("#traderbarbarians34").hide();
+                $("#traderbarbarians56").hide();
+                $("#explorerspirates34").hide();
+                $("#explorerspirates56").show();
+            }
         } 
-    }
 }
 
 //new column increase decrease 
