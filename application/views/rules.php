@@ -2,7 +2,109 @@
     
     <!-- Base Game -->
     <div id="basegame34">
-        <h3>Base game rules</h3>
+    <h3 class="text-center">Base Game Rules</h3>
+    <div class="container">
+        <div class="row">
+            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                <h4 class="text-center">Setup</h4>
+                <p>
+                Catan has a modular board, meaning it can be put together in several different variations, you could use the link we have provided to randomize your board if you are a more seasoned player. For your first game, however, there is a recommended way to set up your board witch you could find on the Catan rule book. Follow the instructions below to assemble your board.
+                </p>
+                <li>1.	Put together the frame by clipping together the blue edges of the board.</li>
+                <li>2.	Stack the land hex tiles in a beginner’s formation or starting from a corner and working counter clockwise until all the tiles are stacked for a variable setup. </li>
+                <li>3.	Start placing the numbered circles in the hex tiles either as shown in the beginners set up. Or you could stack it counter clockwise working your way to the middle.</li>
+                <li>4.	The robber pawn always starts at the desert.</li>
+            </div>
+            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+            <p>
+            <li>Chose a player colour. Take five settlements, four cities and 15 roads of your colour. And place them in front of you.</li>
+            <li>Place two settlements and two roads  on the board if you’re a new player follow the guide on where to place your settlement on the Catan rule book. The experienced players can chose where to place their first settlements themselves by taking turns to place their settlement and a road. The last person to roll the dice places their settlement first so it goes from last to first.</li>
+            <li>Building costs could be viewed on our main page. And you can also keep track of your resources and all your victory points.</li>
+            <li>The Longest Road and Largest Army cards should be placed alongside the game board. You can use our dice roller and victory point chart to see who is in the lead. Those futures are located in the game page. </li>
+            <li>Track all the resources you get by inputting the number of resources you get in the resource chart every round.</li>
+            <li>For the recommended beginner setup, you take the resources of the land surrounding the settlement marked by the white star in the rulebook: Yellow receives a sheep, a wood and a wheat. Red gets a wheat, a wood and a sheep. Blue gets a brick, a sheep and an ore. White gets an ore, a wood and a sheep.</li>
+            <li>When using the experienced player setup, you instead receive resources from each of the tiles next to your second settlement.</li>
+           </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                <h4 class="text-center">Resource Production </h4>
+                <li>Roll the dice at the start of your turn. The result of the dice effects everyone so if your settlement is on the corner of that hex tile you should collect the allocated resource and add it to add it to your dynamic table. Every time a number gets rolled if you have a settlement in the corner you will get one resource every round unless the thief is on that tile which stops you from taking that resource.</li>
+                <li>Every player needs to make sure they keep track of their own settlements and whether or not they receive a resource on any given roll. And input the reaccuses they receive on the chart.</li>
+                <li>Catan is a game of probability to a certain extent, as the resources that come up will be determined by the dice that get rolled. 7 is the most likely number to be rolled with two dice and is treated slightly differently...</li>
+                <li>If you roll a 7 on your turn in Catan, you activate the robber.</li>
+                <li>Any player that has more than seven resource cards in their hand must return half of them (rounded down) to the resource stacks. That includes the person who activated the robber. So update your chart if you have more then 7 cards.</li>
+                <li>You now get to move the robber onto one of the numbers on the board, covering up that number - stopping players from gaining resources from adjacent settlements if that number is rolled - until the robber is moved again.</li>
+                <li>As they are a robber, you also get to steal a resource at random from a player with a settlement next to the number you cover. If the robber affects more than one player, choose one to take a resource from</li>
+                <br>
+            </div>
+            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+            <h4 class="text-center">Building</h4>
+                <p>
+                    End of each player’s turn is the building phase of the game
+                    As long as you have the building materials, so check your chart and see if you want to build anything and use the dynamic table to build 
+                </p>
+                <br>
+                <p>
+                    Roads
+                    <li>Building roads costs one brick and one wood. Roads are placed on the edges of hexes and will allow you to build settlements further afield, giving you an opportunity to gain more resources.</li>
+                    <li>The first player to build a road at least five sections long (in a single stretch - not including forks) receives the Longest Road card, which is worth two victory points at the end of the game.</li>
+                    <li>If another player exceeds the length of that person’s road, they get to take that card from them - so the Longest Road card is never entirely safe in any one player’s possession. </li>
+                </p>
+                <br>
+                <p>
+                    Settlements
+                    <li>Building settlements requires a brick, a wood, a sheep and a wheat. Getting settlements on the board quickly can be quite an important strategy in the game, as each settlement is worth one victory point. You need 10 victory points to win the game.</li>
+                    <li>You can only ever place a settlement somewhere that is connected by your roads and you need to be at least two spaces away from another settlement, including your own. That means no settlement can be adjacent to another settlement.<li>
+                    <li>As well as giving you a precious victory point, each settlement rewards you with resources whenever one of the numbers next to it is rolled.</li>
+                </p>
+                <br>
+                <p>
+                    Cities
+                    <li>Building a city requires three ore and two wheat, you can only build it if you’ve already got an existing settlement. </li>
+                    <li>You can only build a city if you have a settlement on the board that can be replaced with the new city. Cities will earn you double the resources and are worth two victory points each. </li>
+                </p>
+                <br>
+                <p>
+                    Development Cards
+                    <li>Buying development cards is also part of the building phase and costs one sheep, one ore and one wheat. They could be a game changer however it’s based on a lucky draw</li>
+                    <li>Development cards are kept hidden until a certain point when player decides to use them. A development card cannot be used on the same turn when you bought them.</li>
+                    <li>All instructions are written on the cards. There are three types of development cards: knights, progress cards and victory points cards.</li>
+                    <li>Knights are similar to the Longest Road card in that the first player to play three knights in front of them will receive a two-point bonus victory points for having the Largest Army. But, just like the Longest Road, this card can be stolen by another player if their army is larger than yours. Knights also activate the robber when played, in which case you behave as if you had just rolled a 7.</li>
+                    <li>Progress cards vary and what they do is laid out very clearly on each card. They usually give you resources or allow you to build without spending resources. Once played, the card is removed from the game.</li>
+                    <li>Victory point cards are the best development cards you can acquire. Keep them hidden if you want to win with a surprise victory. But beware as they could be stolen.</li>
+                </p>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+            <h4 class="text-center">Trade</h4>
+                <p>
+                    There are two types of trading in Catan: domestic and maritime.
+                    <br>
+                    Domestic:
+                    <li>Domestic trading is trading between you and other players. You can announce what you’re after and what you’d be willing to trade for it. The other players can make counter offers and proposals to you but not to each other on your turn.</li>
+                    Maritime:
+                    <li>Maritime trading allows you to trade four of one good for one of another. You can perform this action this no matter what, but if you have a settlement or city on a harbour, you get a rebate of some kind based on the token - such as being able to trade at 3:1 or sometimes even 2:1 for a specific resource. When performing a maritime </li>
+                </p> 
+
+            </div>
+            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                <h4 class="text-center">How to End the Game</h4>
+                <p>
+                    Victory in Catan is simple you just need 10 Victory points
+                    They can be acquired by various things
+                    <li>Settlement - 1 Victory Point</li>
+                    <li>City - 2 Victory Point</li>
+                    <li>Largest Army - 2 Victory Point</li>
+                    <li>Longest Road - 2 Victory Point</li>
+                </p>
+                <br>
+            </div>
+        </div>
+    </div>
     </div>
     <div id="basegame56">
     </div>
