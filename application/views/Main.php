@@ -44,11 +44,6 @@ a, a:hover,a:visited, a:focus {
                 </blockquote>
 
                 <blockquote class="blockquote text-center">
-                    <p class="mb-0">170+ hours on a game you love</p>
-                    <footer class="blockquote-footer">Atomic Priest <cite title="Source Title">Steam Reviews</cite></footer>
-                </blockquote>
-
-                <blockquote class="blockquote text-center">
                     <p class="mb-0">It fully immerses you into the Catan experience, 
                         makes you feel like you are actually playing the game irl. 
                         The AI's that you can pick to play against are not that good though, 
