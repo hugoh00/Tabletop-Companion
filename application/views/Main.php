@@ -42,7 +42,32 @@ a, a:hover,a:visited, a:focus {
                     <p class="mb-0">170+ hours on a game you love</p>
                     <footer class="blockquote-footer">Atomic Priest <cite title="Source Title">Steam Reviews</cite></footer>
                 </blockquote>
+
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">170+ hours on a game you love</p>
+                    <footer class="blockquote-footer">Atomic Priest <cite title="Source Title">Steam Reviews</cite></footer>
+                </blockquote>
+
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">It fully immerses you into the Catan experience, 
+                        makes you feel like you are actually playing the game irl. 
+                        The AI's that you can pick to play against are not that good though, 
+                        maybe a hardcore AI would be helpful for people looking to be seriously 
+                        challenged when they are alone or not playing online. I think that 
+                        the guild system is also interesting and adds an aspect of the game 
+                        which is not present in the irl version. Overall, I give the game a 9.5/10</p>
+                    <footer class="blockquote-footer">Lago<cite title="Source Title">Steam Reviews</cite></footer>
+                </blockquote>
+
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Once you learn the rules of the game (which only takes a few games) it is so addicting. 
+                        The games take about 45min to 1 hour. The greatest part is there are so many ways to play I.E on 
+                        your phone through steam etc...</p>
+                    <footer class="blockquote-footer">TTV-JeffPinksy<cite title="Source Title">Steam Reviews</cite></footer>
+                </blockquote>
+
                 </div>
+                
                 <div class="col">
                 <img src="<?php echo base_url('public\images\Catan-2015-boxart.png') ?>" class="rounded mx-auto d-block" alt="">
                 &nbsp;
