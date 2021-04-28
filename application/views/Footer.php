@@ -7,9 +7,8 @@ $(function(){
     $("#strategy").hide();
     $("#gamehosting").hide();
     $("#rules").hide();
-    
+
     $("#basegame34").hide();
-    $("#basegame56").hide();
     $("#seafarers34").hide();
     $("#citiesknights34").hide();
     $("#traderbarbarians34").hide();
@@ -72,31 +71,18 @@ function ruleshow(n) {
                 $("#basegame34").hide();
             } else {
                 $("#basegame34").show();
-                $("#basegame56").hide();
                 $("#seafarers34").hide();
                 $("#citiesknights34").hide();
                 $("#traderbarbarians34").hide();
                 $("#explorerspirates34").hide();
             }
-        } else if (n=='bs56') {
-            if($("#rules").is(":visible") && $("#basegame56").is(":visible")){ 
-                $("#rules").hide();
-                $("#basegame56").hide();
-            } else {
-                $("#basegame34").hide();
-                $("#basegame56").show();
-                $("#seafarers34").hide();
-                $("#citiesknights34").hide();
-                $("#traderbarbarians34").hide();
-                $("#explorerspirates34").hide();
-            }
+        
         } else if (n=='sf34') {
             if($("#rules").is(":visible") && $("#seafarers34").is(":visible")){ 
                 $("#rules").hide();
                 $("#seafarers34").hide();
             } else {
                 $("#basegame34").hide();
-                $("#basegame56").hide();
                 $("#seafarers34").show();
                 $("#citiesknights34").hide();
                 $("#traderbarbarians34").hide();
@@ -108,7 +94,6 @@ function ruleshow(n) {
                 $("#citiesknights34").hide();
             } else {
                 $("#basegame34").hide();
-                $("#basegame56").hide();
                 $("#seafarers34").hide();
                 $("#citiesknights34").show();
                 $("#traderbarbarians34").hide();
@@ -120,7 +105,6 @@ function ruleshow(n) {
                 $("#traderbarbarians34").hide();
             } else {
                 $("#basegame34").hide();
-                $("#basegame56").hide();
                 $("#seafarers34").hide();
                 $("#citiesknights34").hide();
                 $("#traderbarbarians34").show();
@@ -132,7 +116,6 @@ function ruleshow(n) {
                 $("#explorerspirates34").hide();
             } else {
                 $("#basegame34").hide();
-                $("#basegame56").hide();
                 $("#seafarers34").hide();
                 $("#citiesknights34").hide();
                 $("#traderbarbarians34").hide();
