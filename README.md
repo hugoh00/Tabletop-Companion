@@ -7,11 +7,14 @@ Access the page through a browser of your choice.
  ![mainview](https://user-images.githubusercontent.com/77689366/116413100-38837280-a82f-11eb-90ca-686036b19675.png)
 
 
-A) Title, Genre/Tags Relating to the Game, and a Brief Description of Settlers of Catan 
+### A ) 
+Title, Genre/Tags Relating to the Game, and a Brief Description of Settlers of Catan 
 
-B) Settlers of Catan Box Cover, Review Score made by the Community, and a Blue Button that links to Amazon Store Page to buy Settlers of Catan. 
+### B ) 
+Settlers of Catan Box Cover, Review Score made by the Community, and a Blue Button that links to Amazon Store Page to buy Settlers of Catan. 
 
-C) User Reviews of Settlers of Catan 
+### C ) 
+User Reviews of Settlers of Catan 
 
 ## Navigation Bar 
 
@@ -27,6 +30,9 @@ Press a different item, the information currently being viewed will be hidden an
 ### Rules 
 
 As shown in Navigation Bar Rules when pressed gives you a dropdown list for all expansions and player sizes. 
+
+<img width="626" alt="rules" src="https://user-images.githubusercontent.com/77689366/116417663-666ab600-a833-11eb-986a-85e2677fe12a.PNG">
+
 
 The rules are formatted into subheadings, all rules verified with Catan the Official Providers rulebook. 
 
