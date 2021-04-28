@@ -4,7 +4,7 @@ Access the page through a browser of your choice.
 
 ## Main page 
 
- ![mainview](https://user-images.githubusercontent.com/77689366/116413100-38837280-a82f-11eb-90ca-686036b19675.png)![navigationbar](https://user-images.githubusercontent.com/77689366/116413134-3f11ea00-a82f-11eb-811e-2f5d5dadfeb3.png)
+ ![mainview](https://user-images.githubusercontent.com/77689366/116413100-38837280-a82f-11eb-90ca-686036b19675.png)
 
 
 A) Title, Genre/Tags Relating to the Game, and a Brief Description of Settlers of Catan 
@@ -15,7 +15,7 @@ C) User Reviews of Settlers of Catan
 
 ## Navigation Bar 
 
-![navigationbar](https://user-images.githubusercontent.com/77689366/116413166-4638f800-a82f-11eb-81db-224e29cf736d.png)![strategy](https://user-images.githubusercontent.com/77689366/116413191-4cc76f80-a82f-11eb-952a-555822e15938.png)
+![navigationbar](https://user-images.githubusercontent.com/77689366/116413166-4638f800-a82f-11eb-81db-224e29cf736d.png)
 
 
 Select any item from the navigation bar and relevant information will be loaded underneath. 
