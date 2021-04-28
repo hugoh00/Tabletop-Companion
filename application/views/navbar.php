@@ -18,27 +18,23 @@ a, a:hover,a:visited, a:focus {
                         <div>   
                             <div class="dropdown-header">Base Game</div>
                                 <a class="dropdown-item" onclick="ruleshow('bs34')" href="#">3-4 Players</a>
-                                <a class="dropdown-item" onclick="ruleshow('bs56')" href="#">5-6 Players</a>
+								<a class="dropdown-item" onclick="ruleshow('bs34')" href="#">5-6 Players</a>
                         </div>
                         <div>   
                             <div class="dropdown-header">Seafarers</div>
-                                <a class="dropdown-item" onclick="ruleshow('sf34')" href="#">3-4 Players</a>
-                                <a class="dropdown-item" onclick="ruleshow('sf56')" href="#">5-6 Players</a>
+                                <a class="dropdown-item" onclick="ruleshow('sf34')" href="#">Seafarers</a>
                         </div>
                         <div>   
                             <div class="dropdown-header">Cities & Knights</div>
-                                <a class="dropdown-item" onclick="ruleshow('ck34')" href="#">3-4 Players</a>
-                                <a class="dropdown-item" onclick="ruleshow('ck56')" href="#">5-6 Players</a>
+                                <a class="dropdown-item" onclick="ruleshow('ck34')" href="#">Cities & Knights</a>
                         </div>
                         <div>   
                             <div class="dropdown-header">Traders & Barbarians</div>
-                                <a class="dropdown-item" onclick="ruleshow('tb34')" href="#">3-4 Players</a>
-                                <a class="dropdown-item" onclick="ruleshow('tb56')" href="#">5-6 Players</a>
+                                <a class="dropdown-item" onclick="ruleshow('tb34')" href="#">Traders & Barbarians</a>
                         </div>
                         <div>   
                             <div class="dropdown-header">Explorers & Pirates</div>
-                                <a class="dropdown-item" onclick="ruleshow('ep34')" href="#">3-4 Players</a>
-                                <a class="dropdown-item" onclick="ruleshow('ep56')" href="#">5-6 Players</a>
+                                <a class="dropdown-item" onclick="ruleshow('ep34')" href="#">Explorers & Pirates</a>
                         </div>
                     </div>
                 </li>
