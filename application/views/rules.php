@@ -313,5 +313,188 @@
 
     <!-- Explorers & Pirates -->
     <div id="explorerspirates34">
+        <h3 class="text-center">Explorers & Pirates</h3>
+        <div class="container">
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Game Components</h4>
+                    <li>16 harbor settlements (4 of each colour)</li>
+                    <li>36 crews (9 of each colour)</li>
+                    <li>12 ships (3 of each colour)</li>
+                    <li>8 settlers (2 of each colour)</li>
+                    <li>12 markers (3 of each colour)</li>
+                    <li>4 pirate ships (1 of each colour)</li>
+                    <br>
+                    <li>6 fish hauls</li>
+                    <li>24 spice sacks</li>
+                </div>
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Land Ho! Game Components</h4>
+                    <li>All game components from the base Catan game-set</li>
+                    <li>6 frame pieces</li>
+                    <li>All roads and settlements</li>
+                    <li>2 dice</li>
+                    <li>All resource cards (but not development cards)</li>
+                    <li>Frame pieces: 1x A1, A2, C1, C2, D1, F1, F2, and 2x B3</li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Land Ho! Building</h4>
+                    <p>
+                        Use the frame pieces from the base Catan game plus the frame pieces from Explorers & Pirates.
+                        The completed frame divides the game board into 3 areas:
+                        <li>West (with the pasture hex): is the starting island</li>
+                        <li>East: two unexplored areas separated by the F1 and F2 frame pieces</li>
+                    </p>
+                </div>
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Land Ho! Preparation</h4>
+                    <p>
+                        Each player chooses a colour and takes the following game pieces:
+                        <li>5 settlements from the base catan game</li>
+                        <li>15 roads from the base catan game</li>
+                        <li>4 harbour settlements from Explorers & Pirates</li>
+                        <li>3 ships from Explorers & Pirates</li>
+                        <li>2 settlers from Explorers & Pirates</li>
+                        <li>2 gold from Explorers & Pirates</li>
+                        <li>1 Explorers & Pirates building costs card</li>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Land Ho! Base Rules</h4>
+                    <p>
+                        The rules of the base catan game also apply to all scenarios with the following exceptions:
+                        <li>There are no development cards</li>
+                        <li>There are no "Longest Road" and "Largest Army" special victory point cards</li>
+                        <li>Settlements cannot be upgraded to cities</li>
+                        <li>There is no robber piece to block resource hexes.
+                            However, whenever a "7" is rolled, each player who has more than 7 resources
+                            still loses half of their resources.
+                        </li>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Land Ho! Turn Phases</h4>
+                    <p> Production Phase
+                        <li>You roll for production as usual; the result appliesto all players</li>
+                        <li>Whenever the production die roll results in you recieving no resources.
+                            Except for the "7", you recieve 1 gold from the supply instead.
+                        </li>
+                    </p>
+                    <p>
+                        Trade and Build Phase:
+                        <li>You may trade and build in any order you wish</li>
+                        <li>Trade: there are no harbours. However, you may trade resources
+                            at a 3:1 rate. You may also obtain 1 gold by paying 3 resources of the same type.
+                        </li>
+                        <li>Paying Gold to Buy Resources: Twice during your turn, you may pay 2 gold for any
+                            1 resource of your choice from the supply. You may also trade gold with your opponents, just like
+                            resource cards.
+                        </li>
+                        <br>
+                        Movement Phase:
+                        <li>After you have concluded your trade and build phase, your turn's movement phase begins</li>
+                        <li>You may move all your ships and perform actions with them.</li>
+                        <li>You are not allowed to trade or build during or after the movement phase, except when you are
+                            "Building a Settlement with the Aid of a Settler Ship"
+                        </li>
+                        <li>Your turn ends after the movement phase</li>
+                        <br>
+                        Sea Routes:
+                        <li>Ships are moved along sea routes. The edges of a sea hex are called sea
+                            routes. Sea routes separate sea hexes from each other and terrain hexes from sea hexes
+                            . The edges of frame pieces bordering sea hexes or terrain hexes are also considered as sea routes.
+                        </li>
+                        <br>
+                        Ships:
+                        <li>Ships transport various game pieces from one place to another in the ship's hold
+                            A hold can only accomodate 1 large game piece (settler, fish, haul) or 2 small game pieces (crews, spice sacks)
+                        </li>
+                        <li>Building ships: A ship costs 1 lumber and 1 wool to build. When built, place on a sea route directly adjacent to
+                            one of your harbour settlements, with the following conditions:
+                            You cannot place a ship on a sea route adjacent to an undiscovered hex. 
+                            If you want to build a new ship when all your ships are already on the game board, you may
+                            remove any 1 of your ships from the game board and build a new ship. (Any pieces in the hold of a ship are lost and returned to your supply).
+                        </li>
+                        <br>
+                        Moving ships:
+                        <li>You may only move your ships during your movement phase</li>
+                        <li>Each of your ships has 4 movement points (MPs). Moving costing 1 MP</li>
+                        <li>You may move a ship in any direction and change its direction during movement</li>
+                        <li>You must complete the movement of one ship before you can move your next ship</li>
+                        <li>During your turn, you may buy 2 additional movement points for a ship by spending 1 wool card
+                            This may be done once (and only once) for each ship, each turn.
+                        </li>
+                        <li>Up to 2 ships may occupy a given sea route</li>
+                        <li>You may move your ship past another ship. However, the movement of your ship
+                            may not end on a sea route that is already occupied by 2 ships.
+                        </li>
+                        <br>
+                        Loading and Unloading Ships:
+                        <li>Each ship has a hold that holds 2 small game pieces or one large game piece.</li>
+                        <li>You may remove game pieces from a ship and return them to the appropriate supply</li>
+                        <li>Loading and unloading a ship costs no MP. You may continue to move a ship after loading/unloading</li>
+                        <br>
+                        Discovery:
+                        <li>To discover new land, you must move one of your ships to an unexplored</li>
+                        <li>If after moving a ship, one of its ends (bow or stern) points towards the corner of an undiscovered hex, you must discover that hex</li>
+                        <li>Turn the hex over, if its a terrain hex, take a number token from the matching colour/icon and place number side up on the hex.</li>
+                        <li>If you discover a terrain hex, you are rewarded 1 resource of the type produced by that hex. If you discover any other type of hex, you get 2 gold.</li>
+                        <li>After discovering, you are not allowed to move the ship any further. Any remaining MP are forfeited</li>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Building</h4>
+                    <p>
+                        Building a Harbor Settlement:
+                        <li>For 2 grain and 2 ore, you can upgrade any one of your coastal settlements
+                            to build a harbour settlement. Pay the building costs, return the settlement to your supply
+                            and replace it with a harbour settlement.
+                        </li>
+                        <li>A harbour settlement is worth 2 victory points</li>
+                        <li>A harbour settlement has a basin that can hold various game pieces. 1 large piece or 2 small pieces</li>
+                        <br>
+                        Settlements and Settlers:
+                        <li>You can build settlements in 2 ways: either along a road or by landing a settler ship</li>
+                        <li>Building a settler costs the same resources as building a settlement</li>
+                        <li>When you build a settler, you must place it either into the empty basin of one of your harbour settlements or directly
+                            into the empty hold of one of your ships. Which must be located on a sea route adjacent to one of your harbour settlements
+                        </li>
+                        <li>A ship with a settler in its hold is called a settler ship</li>
+                        <li>If the spaces in the habour basin and in an adjacent ship's hold are occupied by another game piece
+                            , you can build the settler only if you remove the other game piece from the basin or hold and return it to your supply.
+                        </li>
+                        <li>You are not allowed to move a settler overland. Your settlers can only be transported by your ships</li>
+                        <br>
+                        Movement Phase: Loading a settler
+                        <li>If either end of your empty ship points toward one of your harbour settlements with a settler
+                            , you may load the settler onto the ship. You can move your settler ship like a regular ship
+                        </li>
+                        <li>If either end of your settler ship points toward the corner of a terrain hex. You may also build
+                            a settlement there.
+                        </li>
+                        <li>To build this settlement, return both your ship and the settler in its hold to your supply</li>
+                        <li>Place your new settlement on the intersection of the terrain hex, at no additional cost</li>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Wrapping Up</h4>
+                    <p>
+                        You win this scenario if you reach 8 victory points on your turn. Overall, this is an expansion that requires careful planning in both movement
+                        and resource tracking. The beauty of this expansion of Explorers and Pirates is that each scenario can be used with other scenarios to further enhance
+                        gameplay. For instance, involving scenario 2 of adding pirates and pirate lairs. All of which can be found in the Explorers & Pirates book!
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
