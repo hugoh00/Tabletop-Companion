@@ -7,6 +7,13 @@ $(function(){
     $("#strategy").hide();
     $("#gamehosting").hide();
     $("#rules").hide();
+    
+    $("#basegame34").hide();
+    $("#basegame56").hide();
+    $("#seafarers34").hide();
+    $("#citiesknights34").hide();
+    $("#traderbarbarians34").hide();
+    $("#explorerspirates34").hide();
 
 
     //gamehosting view
