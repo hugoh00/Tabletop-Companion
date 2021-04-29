@@ -110,6 +110,82 @@
 
     <!-- Seafarers -->
     <div id="seafarers34">
+    <h3 class="text-center">Seafarers</h3>
+        <div class="container">
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Overview</h4>
+                    <p>Catan seafarers has all the base game components with a couple new additions and a scenario system. The new scenarios could be viewed on the Seafarers rule book. If you want to better understand this guide please read through our base rules guide first. </p>
+                </div>
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Game Components</h4>
+                    <li>6 frame pieces and 19 sea hexes</li>
+                    <li>2 gold field hexes</li>
+                    <li>2 desert hexes</li>
+                    <li>1 forest hex</li>
+                    <li>1 pasture hex</li>
+                    <li>2 mountain hexes</li>
+                    <li>2 hill hexes</li>
+                    <li>50 Catan chits</li>
+                    <li>10 number tokens</li>
+                    <li>10 harbour tokens</li>
+                    <li>60 wooden ships - 4 colours (15 of each colour)</li>
+                    <li>1 pirate ship (black)</li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Expansion Rules</h4>
+                    <p>
+                    Catan uses the same rules as catan in addition to some new rules these rules include.
+                    </p>
+                    <li>Rules for building placing and moving ships</li>
+                    <li>Rules for acquiring new victory points via tokens.</li>
+                    <li>And the addition of the pirates to the game.</li>
+                </div>
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Setting the Game up</h4>
+                    
+                    <li>Assemble the frame pieces by fixing them together from all sides.</li>
+                    <li>After you assembled the frames put the hexes inside the frame and use the booklet to assemble the hex tiles and chose a preferred scenario setting.</li>
+                    <li>After you have built the board randomly place the harbour tokens listed in the scenario description.</li>
+                    <li>Place all your terrain tokens on the listed positions in your scenario booklets.</li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Ship Building</h4>
+                    <li>In order to travel from one island to another you will need to build ships. Ships function in a similar manner to roads they are placed on the sides of the hex tiles to create ship routes</li>
+                    <li>To build ships you need 1 wool and 1 lumber.</li>
+                    <li>Unlike roads ships can only be placed in the ocean and cannot be placed between two hex tiles.</li>
+                    <li>You cannot build a ship on a coast if there is already a road on that side.</li>
+                    <li>You can place ships alongside settlements or cities.</li>
+                    <li>Or you may place a ship alongside your other ships to form a ship route.</li>
+                    <li>Once a ship route is connected to two settlements they cannot be moved, before that point you have the chance to move a single ship every turn before its connected on a route</li>
+                    <li>Ships are to connect the main land to other islands forming ship routes. This is the only way to get to the rich resources that are residing on the scattered islands.</li>
+                    <li>Building the longest trade route will reward you with 2 victory pints its similar to having the longest road which also gives you two victory points.</li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Catan Chits, Special Victory Points and New Additions</h4>
+                    <li>Catan chits fulfil different functions depending on the scenario please check out the rule book for a detailed explanation of each scenario.</li>
+                    <li>In some of the scenarios the chits are tradeable for victory points so its essential to control the tiles that produce the chits. </li>
+                    <li>The road building development card is a new addition to the base game which lets you place two roads as if you just built them. </li>
+                    <li>Gold fields is a new addition to the hex tiles which produces gold which ultimately means it could produce any resource of your choosing if the number is rolled. They are usually scattered in the islands on the board depending on what scenario you chose to play in. Establishing good shipping routes to get to this resource could be game changing.</li>
+                    <li>In the beginning of the game, you have the option your place your settlements along the shore to build two ships instead of two roads.</li>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">The Pirate</h4>
+                    <li>The pirate serves a similar purpose to the robber every time a player rolls a 7 they can either move the pirate or the thief. </li>
+                    <li>The pirate could block trade routed and stop them from completion which will hinder other civilisations progress. </li>
+                    <li>You could also activate the pirate after using your knight development card.</li>
+                    <li>And if a pirate is blocking a route, you may not move your unconnected ships until the pirate ship is moved elsewhere.</li>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Cities & Knights -->
