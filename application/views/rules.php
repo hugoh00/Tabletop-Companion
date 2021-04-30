@@ -190,8 +190,426 @@
 
     <!-- Cities & Knights -->
     <div id="citiesknights34">
-    </div>
+    <h3 class="text-center">Cities & Knights</h3>
+        <div class="container">
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Introduction</h4>
+                    <p>
+                        This introduces several variants and scenarios. Each with their own rules and trials.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Game Components</h4>
+                    
+                    <li>1 "barbarian tile" with movement spaces for the barbarian ship</li>
+                    <li>36 commodity cards, including:
+                        -12 paper (from forest)
+                        -12 cloth (from pasture)
+                        -12 coin (from mountains)</li>
+                    <li>54 progress cards:
+                        -18 trade progress cards (yellow flag on the back)
+                        -18 politics progress cards (blue flag on the back)
+                        -18 science progress cards (green flag on the back)</li>
+                    <li>6 "Defender of Catan" victory point (VP) cards</li>
+                    <li>4 development flip-charts ("city calendars")</li>
+                    <li>wooden playing pieces in 4 colors:
+                        -12 city walls (square wooden tokens; 3 of each colour)
+                        -24 knights (round wooden tokens; 6 of each colour)</li>
+                    <li>3 metropolis pieces (yellow wooden city gate pieces)</li>
+                    <li>3 metropolis tokens (die cut cardboard)</li>
+                    <li>2 sheets of knight labels</li>
+                    <li>1 barbarian ship (wooden ship piece)</li>
+                    <li>1 merchant (wooden cone piece)</li>
+                    <li>1 event die (with 3 ships and 3 city gate symbols)</li>
+                </div>
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Game Rules (Cities & Knights)</h4>
+                    <p>
+                        Setting Up The Game
+        
+                    <br>
+                    <li>Sort the resource cards into 5 stacks, 1 for each resource. 
+                        Place them face-up near the island.
+                    </li>
+                    <li>Sort the new commodity cards into 3 stacks, one for each commodity. 
+                        Place them face-up by the resource cards.
+                    </li>
+                    <li>Divide the progress cards into 3 stacks by the flag color on the back of each card
+                        (green, blue, and yellow). Shuffle each stack separately and place them face down near the island.
+                    </li>
+                    <li>Place the 3 metropolises, the trader cone, the 3 dice 
+                        (1 yellow, 1 red, and 1 event die), and the "Longest Road" card near the island.
+                    </li>
+                    <li>Place the black wooden ship on the "barbarian ship" space on the Barbarian Tile.
+                        The barbarian ship moves along this track on its way to Catan.
+                    </li>
+                    <li>Place the robber on the desert hex.
+                    </li>
+                    <li>Each player selects a color and takes all of the pieces of that color. 
+                        Each player receives:
+                        -5 settlements, 4 cities, and 15 roads (all from the Catan base game);
+                        -6 knights (2 each of basic, strong, and mighty knights);
+                        -3 city walls; and
+                        -1 development flip-chart.
+                    </li>
+                    <br>
 
+                    <p>
+                        Set-Up phase
+
+                    <li>Once you've constructed the board and arranged the pieces, begin the set-up phase. 
+                        Now the players place their initial settlements, cities, and roads. 
+                        Each player rolls the dice; the player with the highest roll begins.
+                    </li>
+                    <li>Starting with the first player and continuing clockwise around the table, 
+                            each player places 1 settlement and 1 road (as in basic Catan).
+                    </li>
+                    <li>Then, the second placement round begins with the last player to place a settlement. 
+                        It continues counterclockwise around the table (so the first player to place a settlement will be the last to place). 
+                        Each player now places 1 city and 1 road, following all of the normal rules for placement described in the Catan base game
+                        (i.e., no city may be placed fewer than 2 spaces away from all settlements, etc).
+                    </li>
+                    <li>You receive your first resources immediately after you place your city. 
+                        You get 1 resource for each terrain that your city is adjacent to. 
+                    </li>
+                    <li>Place your development flipchart in front of you with the first page showing 
+                        (indicating that you have not built any city improvements).
+                    </li>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Turn Overview</h4>
+                    <p>
+                        The player who placed the last city takes the first turn; afterwards, in clockwise direction, 
+                        one by one the other players take their turns. On your turn, the following actions are performed, 
+                        in the order listed:
+                    <li>1. You roll all 3 dice.</li>
+                    <li>2. The results of the event (symbol) die are resolved.</li>
+                    <li>3. Progress cards may be drawn (depending on the result of the event die).</li>
+                    <li>4. All players produce the resources indicated by the red and yellow dice.</li>
+                    <li>5. All players produce the commodities indicated by the red and yellow dice.</li>
+                    <li>6. You may do any or all of the following in any order:
+                        -Trade resources and/or commodities with the bank and/or other players.
+                        -Build roads, settlements, cities, knights, city walls, and/or city improvements.
+                        -Activate, promote, and/or perform actions with your knights.
+                        -Play any number of progress cards.
+                    </li>
+                    <li> 
+                    <i>Note: The "Alchemist" progress card can only be played before the dice are rolled. 
+                    It is the only progress card that can be used before the dice are rolled and the results resolved.
+                    </i>
+                    </li>
+                    </p>
+                    </div>
+            </div>
+                    <div class="row">
+                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Specific Actions</h4>
+                    <p>
+                        Dice rolls
+                    </p>
+                    <p>Each player begins his turn by rolling all 3 of the dice. 
+                        The result of the dice will determine not only which terrain hexes produce resources and commodities,
+                        but also what actions the barbarians will take, and if any progress cards are drawn. 
+                         The effects of the die roll must be resolved in a specific order:
+                    <li>1. First, use the event die to determine what event takes place that turn.
+                    </li>
+                    <li>2. If the ship symbol is showing, then move the barbarian ship 1 space closer to the island of Catan. 
+                        The ship follows the track on the Barbarian Tile. The ship begins its journey on the space illustrated with the ship. 
+                        The barbarians attack when the ship reaches the last space.</li>
+                    <li>3. If one of the three city gate symbols (blue, green, or yellow) is showing, then all players may be eligible to draw a progress card. 
+                        To be eligible, a player must be able to match the number rolled on the red die with one of the red die icons showing on his flip-chart 
+                        in the section that matches the color of the city gate rolled on the symbol die.Beginning with the player whose turn it is, and continuing clockwise, 
+                        each eligible player draws the topmost card from the progress card stack that matches the color of the city gate showing on the event die.
+                        Keep your progress cards secret from your opponents until you play them. You may never have more than 4 progress cards in your hand.</li>
+                    <li>4. Add the red and the yellow dice together to determine which hexes produce resources and commodities for all players. 
+                        All hexes whose number matches this sum produces 1 of the appropriate resources for each settlement adjacent to it. 
+                        Production for a city bordering a producing hex depends on the type of terrain rolled.</li>
+                    <li>As in Catan base game, any hex that is occupied by the robber does not produce any resources or commodities.
+                        Also, if a "7" is rolled on the dice, no hexes produce: instead, the player who rolled the "7" must move the robber and may be able to steal
+                        1 card from any opponent whose settlement or city is adjacent to the robber. The robber cannot be moved until after the barbarians reach the island of Catan for the first time.
+                        Until the first barbarian attack, if you roll a "7", each player must check if he is holding too many cards as usual; 
+                        however, you do not move the robber from the desert and you do not steal a card from another player. 
+                        Further, you are not allowed to move the robber by playing of any progress cards (like the Bishop) or knight actions until after the first barbarian attack.</li>
+                    </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                        <h4 class="text-center">Trading & Building</h4>
+                        <p> 
+                            In Cities & Knights, you are allowed to build and trade any number of times and in any order. 
+                            You do not need to finish all of your trading before you begin your building.
+                            All of the rules from Catan apply to trades made in Cities & Knights (with the addition of the commodity cards). 
+                            Progress cards may never be traded at any time. All of the basic rules for building remain in effect. 
+                            The cost of roads, settlements, and cities remain unchanged. There are, however, 2 new items that you may elect to build during your turn. 
+                            Also, you may no longer purchase development cards with resources. The 2 new items are city walls and knights.
+                        </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">City Walls</h4>
+                    <p>
+                        To build a city wall, you must pay two brick resources to the bank. Place the city wall (the square wooden piece) under any city you own on the board. 
+                        There are three restrictions on the placement of city walls:
+                    <li>1. You may only build city walls under cities-never under settlements.</li>
+                    <li>2. You may only build one city wall under each city.</li>
+                    <li>3. You may never have more than 3 city walls at one time. </li>
+                    
+                    Each city wall you control increases the maximum number of cards you safely hold in your hand when a "7" is rolled on the production dice. Each city wall adds 2 cards to this limit.
+                    Example: If you have 2 cities, each with a city wall, you may safely hold up to 11 cards in your hand without having to discard half of them when a "7" is rolled.
+                    If the barbarians pillage your city (i.e., reduce it to a settlement), the city wall is also destroyed. You must remove the city wall from the board.
+                    </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                        <h4 class="text-center">Knights</h4>
+                        <p>Knights are represented by the round wooden tokens. Each knight token is labeled on both sides. One side-showing the symbol of a knight's helmet in black and white-is the inactive side.
+                        An inactive knight may not perform any actions. The other side of the token, which depicts the helmet in color, is the active side. 
+                        The type of helmet and the number of rings indicate the strength of the knight. If you wish to "hire" a knight, you must pay one wool and one ore to the bank. 
+                        This allows you to take a basic knight (open helmet/one ring) and place it on the board. Newly placed knights are always placed with the inactive side up.
+                        You may place your knight on any unoccupied intersection connected to your roads.
+                        </p>
+                        <p>
+                            There are 2 special purchases you can make once you have a knight:
+
+                        <p>Activating a Knight
+
+                            In order for a knight to take an action, he must first be activated. To activate a knight, you must pay one grain to the bank.
+                            Then you may turn the knight token over to the active side, which depicts the helmet in color.
+                            The strength of the knight does not affect the cost to activate it. It costs only one grain, regardless of whether it is a basic knight, or a mighty knight.
+                            A knight may be activated on the same turn he was built; however, the knight may not perform an action on that same turn.</p>
+                        
+                        <p>Promoting a Knight
+
+                            You can increase the strength and effectiveness of your knights by paying additional commodities. 
+                            The cost to promote a basic knight to a strong knight or a strong knight to a mighty knight is one wool and one ore.
+                            When you promote a knight, return the old knight token (which may be repurchased later) and replace it with a token showing the next higher strength level. 
+                            The new, stronger knight must be placed in the same location as the knight you have promoted.
+                            The status of the knight, active or inactive, is not changed when you promote the knight. 
+                            You may promote a knight on the same turn that he was originally built, or on any later turn. A knight may only be promoted once per turn. 
+                            You may only promote a strong knight to a mighty knight after you have purchased the third level of the politics (blue) city improvement (the "Fortress").</p>
+                        </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                        <h4 class="text-center">Commodities</h4>
+                        <p>
+                            In Cities & Knights, we've added 3 new, "refined" materials to the game. As in Catan, we refer to the 5 basic materials (lumber, wool, grain, brick, and ore) as "resources".
+                            The 3 new materials (cloth, coin, and paper) are called "commodities". In many ways, the commodities are treated the same as resources, but there are also some ways in which they differ.
+                        <li>Commodities are produced only by cities, and only in forest, pasture, and mountains.</li>
+                        <li>Commodities, when produced, are added to your hand of resource cards. They count toward the robber or limit when a "7" is rolled. They may be stolen by the robber, or lost as a discard.</li>
+                        <li>The borders on commodity cards are intertwined with ribbons that match the color of the commodity (gold for cloth, green for paper, and gray for coin). The borders on the resource cards all are plain knot work. 
+                            Both commodity cards and resource cards have the same card backs (i.e., a map).
+                            Commodities may be traded in all the same ways as resources. You may trade them freely with other players. You may exchange 4 of the same commodity for 1 of any resource or commodity you choose.
+                            If you have a settlement or a city on a 3:1 harbor, you may trade 3 of any commodity for 1 of any resource or commodity of your choice. 
+                            You may also trade 4 of any resource for 1 of any commodity you choose (3:1 at a harbor; 2:1 if you have the matching special harbor).</li>
+                        <li>You need commodities to acquire city improvements.</li>
+                        <li>Some progress cards specifically mention "resources" or "commodities". These cards can only affect the type of material they specifically mention.</li>
+                        </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">City Improvements</h4>
+                    <p> 
+                        One of your most important considerations as a prince of Catan is the continued improvement of your cities. This improvement is made possible through the use of commodity cards. You are able to improve your cities in three areas of development: trade (yellow); politics (blue); and science (green). You may purchase improvements in all 3 areas even if you own only 1 city. Your city improvements are tracked with your development flip-chart. 
+                        Your flip-chart is divided into 3 separate parts, 1 for each of the 3 areas of development. Each section has 5 pages, which correspond to the 5 levels of improvement you can acquire in each area. At the beginning of the game, open page 1 of your flip-chart; the page indicates that you have no improvements.
+                        The various improvements are represented by important buildings that can be constructed in your cities, such as a market, a cathedral, or a library. The cost of a building is shown in the lower right corner of each flip-chart page.
+                        Example: The market costs 1 cloth. Pay 1 cloth and flip the Market section of your development flip-chart.
+                        </p>
+                        <br>
+                    <p> The first improvement in each area always costs 1 commodity of the matching type. The second improvement in each area costs 2 of that commodity. The cost of each subsequent improvement is again increased by 1.
+                        There is one restriction on the purchase of improvements, however. If you have no cities on the board (because the barbarians have pillaged your last city), you may not purchase any city improvements until you have built at least 1 city.
+                        Each improvement increases your chance of being eligible to draw progress cards. Each improvement shows a picture of the improvement. Above that picture is a row of red dice.
+                        Each die shows a number. If the event die roll shows a city gate, you may draw a progress card of like color-but only if the number on the red die matches one of the dice pictured on that color's section on your development flip-chart. A higher level of improvement increases your chance to draw progress cards.
+                        Example: If you have built the market improvement, it shows 2 red dice. If the event die rolls the yellow city gate, and the red die shows a "1" or "2", then you may draw a yellow progress card.
+                        </p>
+                        <br>
+                    <p> In addition, when you build the third improvement in each area, you receive a special ability. You are able to use this ability for the remainder of the game, even if other players also achieve the third level of improvement (in which case they also get the advantage) or if you purchase improvements beyond the third level. 
+                        The advantage that you gain from each color of improvement is different:
+                    <li>Trading House (yellow): You may trade commodities (of the same type) 2:1 for any commodity or resource.
+                        You may make this trade only during your turn, as if you were using a harbor.
+                        This special trade advantage does not include resources, only the three commodities.</li>
+                    <li>Fortress (blue): You may promote strong knights to mighty knights after you have built the fortress.
+                        You must still pay to promote the knights normally.</li>
+                    <li>Aqueduct (green): If, when the dice are rolled for production, you do not receive any resources or commodities, you may take any one resource of your choice from the bank. You many not, however, use this ability when a "7" is rolled.</li>
+                    </p>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">The Metropolis</h4>
+                     <p> 
+                            Building city improvements is also important if you want to have a metropolis. A metropolis is represented by a yellow city gate. These gates are designed to fit over the wooden city pieces.
+                            Only 3 metropolises may be in play at any given time: one each for trade, politics, and science.
+                        <li>The first player who achieves the fourth level of improvement in any one of these 3 areas (the bank, the cathedral, or the theater) may place one of the metropolis gates on any one of his cities on the board.
+                            You may take the metropolis only if no other player already controls the fourth level improvement of that color, for there can be only 1 metropolis for science, trade, or politics. When you acquire a metropolis, 
+                            place the metropolis token of the appropriate color on your flip-chart to show which area is associated with your metropolis.</li>
+                        <li>A city with a metropolis is worth a total of 4 victory points! This includes 2 points for the city and 2 additional points for the metropolis.</li>
+                        <li>You may take another player's metropolis if you are able to acquire the fifth level of improvement in the matching color before he does. 
+                            If another player reaches the fifth level of improvement before the metropolis owner does, he may take both the metropolis piece and the colored metropolis token. If you have reached the fifth level of improvement in any area, no player may take your metropolis away.
+                            A metropolis is immune to the barbarians. It can never be pillaged or reduced. However, the metropolis is counted when determining the strength of the barbarian army.</li>
+                        <li>You may build more than one metropolis. If you are the first player to reach the fourth level of improvement in more than one area (or if you reach the fifth level, thereby taking another player's metropolis away), you may place another metropolis gate on one of your cities.</li>
+                        <li>But, you may not purchase any improvements beyond the third level of a given color unless you have a city where you could build a metropolis. If you do not have such a city on the board, you must wait until you have built at least one more city.</li>
+                        </p>
+                    </div>
+                    </div>
+                        <div class="row">
+                        <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Progress Cards</h4>
+                        <p>
+                            In Cities & Knights, progress cards replace the development cards from the Catan base game. You don't purchase progress cards like development cards; 
+                            instead you draw them with the right combination of event die and red die.
+                        </p>
+                        <p>
+                            To be able to draw a progress card:
+
+                        <li>You must possess at least one level of city improvement in one or more areas of development. The first level of improvement displays two red dice, the second level displays three, and so on.</li>
+
+                        <li>The event die, when rolled on any player's turn, must show the city gate symbol whose color matches the color of one of your city improvements.</li>
+
+                        <li>The number on the red die, rolled at the same time, must match one of the red dice displayed on your city improvement whose color matches the city gate on the symbol die.</li>
+                        </p>
+
+                        <p> If these three conditions are met, you may draw the top card from the progress card stack that matches the color of the city gate on the event die. 
+                            If more than one player is allowed to draw on the same turn, then each player draws in turn order, beginning with the player whose turn it is.
+                        </p>
+                        
+                        <p> Example: Player A rolls a "6" on the white die, a "3" on the red die, and the yellow city gate on the event die. 
+                            Player B has already built a town hall (blue) and a merchant guild (yellow).
+                            Since player B's yellow improvement shows a red die with "3", showing player B may draw a yellow progress card.
+                        </p>
+                        <p> During your turn, you may play as many progress cards as you wish. All progress cards may only be played after you roll the dice (exception: the "Alchemist"). 
+                        Here are some specific rules about the play of progress cards:
+                        <li>Victory point cards must be played immediately when drawn. The Spy may not steal them, and they cannot be hidden in your hand.
+                            These cards do not count toward your hand limit of 4 cards.</li>
+
+                        <li>You may never hold more than four progress cards in your hand. If you draw a fifth progress card, and you cannot play it because it is not your turn, 
+                            you must discard one card (of your choice) to the bottom of the appropriate stack.</li>
+
+                        <li>Progress cards may be played on the same turn they are drawn.</li>
+
+                        <li>Progress cards may not be traded with other players, nor may the robber steal them.</li>
+
+                        <li>When you play a progress card, place it face down under the appropriate progress card stack.
+                            Victory points, however, remain face-up and in play.</li>
+
+                        </p>
+                        </div>
+                        </div>
+                        <div class="row">
+                        <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Attack Of The Barbarians</h4>
+                        <p> 
+                            Catan is in constant danger of attack from the barbarians that live across the sea. Each turn the event die shows a black ship, the barbarian navy moves one space closer towards Catan. 
+                            When the ship reaches the red-circled space that depicts barbarians landing on the shore, the barbarians attack Catan. 
+                            
+                            When the barbarians attack, follow these steps:
+
+                        1.  Determine The Barbarians' Strength.
+
+                        <li>The strength of the barbarians is equal to the number of cities (including metropolises) owned by all players. 
+                            Add up all of the cities owned by all of the players anywhere on the island to determine this strength.</li>
+
+                        2.  Determine The Strength Of Catan's Knights.
+                        
+                        <li>All active knights of all players (even those who do not own any cities) will defend against the barbarians. 
+                            Only the active knights are counted, the inactive knights do not assist in defending the island in any way.
+
+                            Remember that the strength of each knight is based upon its type: basic (1), strong (2), or mighty (3). 
+                            Sum up the value of all the active knights to determine the strength of the defending army.</li>
+
+                        3.  Compare Attackers' And Defenders' Strengths.
+                            There are 2 possible outcomes of this battle:
+
+                        <li>If the barbarians are stronger, they are victorious! If the barbarians win the battle, they pillage one or more cities.
+
+                            Pillaged cities are reduced to settlements (replace the city piece with a settlement). 
+                            The barbarians pillage one city belonging to the player who had the lowest total strength of active knights when the barbarians attacked.
+                            
+                            Any player who contributed no knights are automatically considered to have the lowest total strength of active knights. 
+                            If various players tie for having the lowest total strength of active knights, each of those players loses 1 of his cities.
+                            
+                            If the barbarians pillage a city that has a city wall, the city wall is destroyed and removed from the board.
+                            
+                            Example: Players A and B each have two cities. Player C has only a metropolis, and player D has only settlements. The barbarians attack, and their strength is 5 (i.e., 4 cities plus 1 metropolis).
+                            
+                            Players A, B, and D each have one simple knight activated, and player C has no active knights. 
+                            Therefore, the knights defend with a strength of 3. Since the knights are weaker, the barbarians win and Catan loses. Because of the loss, players A and B each lose one of their cities.
+                            
+                            Player C cannot lose anything because he has only a metropolis. Similarly, player D has no cities to lose. 
+                            Even though C contributed fewer knights than all the other players, since he is immune to the attack it is the next smallest contributor who thus suffers the effects of the barbarians.</li>
+                        
+                        <li>If the knights have a strength equal to or greater than the barbarians, the knights win and Catan is saved! The player with the highest total strength of active knights (this will not always be the greatest number of knights) will be declared the "Defender of Catan"!
+                            
+                            As a reward, he is presented with one of the 6 "Defender of Catan" victory point (VP) cards.
+                            
+                            Each VP card is worth 1 VP and is placed face-up in front of the player. If 2 or more players tie for the highest total strength of knights, no player is declared Defender of Catan, and no one receives a VP card.
+                            
+                            Instead, each of the players who tie for the highest strength draws the top card from any 1 of the 3 progress card stacks (his choice). In clockwise order, each eligible player selects 1 card, starting with the player whose turn it is.</li>
+                        </p>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Barbarians Return Home</h4>
+                            <p> 
+                                Regardless of the outcome of the attack, the barbarian ship is returned to its starting position. 
+                                All knights on the board are turned so that their inactive (black &white) side faces up. 
+                                Starting with the next player's turn, the barbarians will begin a new journey to the rich island of Catan.
+                            </p>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">Losing Your Last City</h4>
+                            <p>
+                                If you are unfortunate enough to have your last city pillaged by the barbarians, you are allowed to keep any city improvements that you may have built before the attack.
+                                You also keep all of your progress cards. 
+
+                                You may continue to draw and play progress cards normally. 
+                                Note, however, that you may not build any additional city improvements until you have built at least one city. Once you own a city again, you may continue to purchase city improvements normally.
+                            </p>
+                            </div>
+                        </div>
+                            <div class="row">
+                            <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                    <h4 class="text-center">The Merchant</h4>
+                            <p> The merchant piece (the cone) is put into play whenever any player uses one of the "Merchant" progress cards (from the yellow stack).
+
+                                If you play one of these cards, you may place the merchant piece on any land hex adjacent to one of your cities or settlements. 
+                                Until another merchant card is played, you may trade the resource (not commodity) that is produced in that land hex at a 2:1 rate.
+
+                                All of the normal rules for trading at a 2:1 harbor are in effect for these trades.
+                                
+                                Note: In addition, as long as you retain control of the merchant, you receive 1 victory point!
+                                
+                                If another merchant card is played, whoever played that card (it could be you) takes control of the merchant. 
+                                He may move the Merchant to any hex adjacent to one of his settlements or cities. He receives the trade benefit, and he gets the bonus victory point.
+                            </p>
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="container rounded col-sm px-2 m-2" style="border:1px solid black">
+                                <h4 class="text-center">End of the game</h4>
+                            <p>
+                                The first player to accumulate 13 or more victory points during his turn immediately wins the game. 
+                                This player becomes the "Lord of All Catan" and receives the endless praise and love of all the people of Catan.
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+    </div>
+                            
     <!-- Traders & Barbarians -->
     <div id="traderbarbarians34">
         <h3 class="text-center">Traders & Barbarians</h3>
